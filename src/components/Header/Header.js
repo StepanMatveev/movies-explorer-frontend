@@ -35,7 +35,7 @@ function Header({ headerText, activeMovie, activeSavedMovie }) {
 
       <Route path={['/movies', '/saved-movies', '/profile']}>
         <header className='header header_page_authorized'>
-          <Link className='header__logo header__logo_page_main' to='/'><img src = {Logo} alt = 'логотип'/></Link>
+          <Link className='header__logo header__logo_page_movie' to='/'><img src = {Logo} alt = 'логотип'/></Link>
 
           <button className='header__menu-button' onClick={menuOnOpen}></button>
           {isMenuOpen && <div className={`header__overlay`}></div>}
