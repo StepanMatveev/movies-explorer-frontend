@@ -1,0 +1,104 @@
+.search-form {
+    font-family: 'Inter', 'Arial', sans-serif;
+    min-height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+  }
+  
+  .search-form__container {
+    display: flex;
+    margin: 80px 0 34px;
+    align-items: center;
+  }
+  
+  .searc-form__input_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #2F2F2F;
+    border-radius: 8px;
+    border-color: #AAAAAA;
+    border: 1.5px solid rgba(170,170,170,0.2);
+  }
+  
+  .searc-form__input_container_light{
+    background-color: #484848;
+  
+  }
+  
+  .search-form__input {
+    width: 95%;
+    background-color: #2F2F2F;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 16px 0 16px 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .search-form__input_ligt{
+    background-color: #484848;
+  }
+  
+  .search-form__input::placeholder {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #8B8B8B;
+  }
+  
+  .search-form__input:focus {
+    opacity: .8;
+  }
+  
+  .search-form__submit-button {
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 18px;
+    color: #ffffff;
+    background-color: #4285F4;
+    border-radius: 8px;
+    height: 52px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin: 10px 10px 10px 0px;
+  }
+  
+  .search-form__submit-button:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search-form {
+      min-height: 240px;
+    }
+  
+    .search-form__container {
+      margin-bottom: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .search-form__input {
+      width: 80%;
+      padding: 13px;
+      box-sizing: border-box;
+    }
+  
+    .search-form__container {
+      margin-bottom: 47px;
+    }
+  }
+  
